@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManagerPackageActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/managerpackagetoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/dark200"
+        android:elevation="4dp"
+        app:title="PACKAGES"
+        app:titleTextColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:onClick="add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add New Package"
+                android:textSize="20dp"
+                android:layout_margin="20dp"
+                android:drawableRight="@drawable/ic_add"
+                android:paddingRight="40dp"
+                android:background="@color/dark200"
+                android:textColor="@color/white"
+                android:drawableTint="@color/white"
+                android:drawablePadding="20dp"/>
+            <ListView
+                android:id="@+id/managerPackagesList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

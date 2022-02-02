@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/manager_menu_profile"
+        android:icon="@drawable/ic_wperson"
+        android:title="Profile"
+        android:iconTint="@color/white"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/manager_menu_packages"
+        android:icon="@drawable/ic_packages"
+        android:title="Packages"
+        android:iconTint="@color/white"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/manager_menu_customer"
+        android:icon="@drawable/ic_customer"
+        android:iconTint="@color/white"
+        android:title="Customer"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/manager_menu_employee"
+        android:icon="@drawable/ic_employee"
+        android:title="Employee"
+        app:showAsAction="always"/>
+
+</menu>

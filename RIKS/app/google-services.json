@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "681154247593",
+    "project_id": "riks-fbdb",
+    "storage_bucket": "riks-fbdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681154247593:android:079be607b5867338e122b8",
+        "android_client_info": {
+          "package_name": "com.ua.riks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681154247593-nl47nhqal216l9mdi6hru45d9g1kv3h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDazDOFPM0e6yQCmI-hynzVVjh9JhvnX18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681154247593-nl47nhqal216l9mdi6hru45d9g1kv3h8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

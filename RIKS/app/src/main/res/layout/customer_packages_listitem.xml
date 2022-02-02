@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/managerlistitemImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_bpackage"
+        android:layout_margin="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginVertical="20dp"
+                android:id="@+id/managerlistitemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TITLE"
+                android:textSize="20dp"
+                android:layout_gravity="left|center_vertical"/>
+            <TextView
+                android:layout_marginVertical="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="("
+                android:textSize="20dp"
+                android:layout_gravity="left|center_vertical"/>
+            <TextView
+                android:layout_marginVertical="20dp"
+                android:id="@+id/managerlistitemID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textSize="20dp"
+                android:layout_gravity="left|center_vertical"/>
+            <TextView
+                android:layout_marginVertical="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=")"
+                android:textSize="20dp"
+                android:layout_gravity="left|center_vertical"/>
+            <ImageView
+                android:id="@+id/managerlistitemAdd"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_add"
+                android:layout_gravity="right|center_vertical"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/managerlistitemDes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Description"
+            android:textSize="15dp"/>
+    </LinearLayout>
+</LinearLayout>
